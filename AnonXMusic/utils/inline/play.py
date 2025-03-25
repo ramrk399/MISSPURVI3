@@ -33,25 +33,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "✧▰▱▱▱▱▱▱▱▰"
+        bar = "✄·─·─·─·─·─·─·"
     elif 10 < umm < 20:
-        bar = "▰✧▱▱▱▱▱▱▱▰"
+        bar = "-ˋˏ✄·─·─·─·─·─·"
     elif 20 <= umm < 30:
-        bar = "▰▱✧▱▱▱▱▱▱▰"
+        bar = "-ˋˏ-ˋˏ✄·─·─·─·─·─"
     elif 30 <= umm < 40:
-        bar = "▰▱▱✧▱▱▱▱▱▰"
+        bar = "-ˋˏ-ˋˏ-ˋˏ✄·─·─·─·─"
     elif 40 <= umm < 50:
-        bar = "▰▱▱▱✧▱▱▱▱▰"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─·─·─·"
     elif 50 <= umm < 60:
-        bar = "▰▱▱▱▱✧▱▱▱▰"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─·─·"
     elif 60 <= umm < 70:
-        bar = "▰▱▱▱▱▱✧▱▱▰"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─·─"
     elif 70 <= umm < 80:
-        bar = "▰▱▱▱▱▱▱✧▱▰"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─"
     elif 80 <= umm < 95:
-        bar = "▰▱▱▱▱▱▱▱✧▰"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·"
     else:
-        bar = "▰▱▱▱▱▱▱▱▰✧"
+        bar = "▰-ˋˏ𝗝𝗮𝗻𝗶♪𝗠𝘂𝘀𝗶𝗰ˋˏ-ˋ▰✧"
     buttons = [
          [
             InlineKeyboardButton(
@@ -68,10 +68,10 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/ll_ISTKHAR_II"
+                text="✰ 𝗝𝗮𝗻𝗶 ✰", url=f"https://t.me/RAM_HACKER_RP"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/+G9vzWLe1xnQyOTNl"
+                text="✰ 𝗖𝗵𝗮𝘁 ✯", url=f"https://t.me/+ZInYo4WtbRU0NzU1"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
